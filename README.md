@@ -1,0 +1,1 @@
+Hi! This is a fancy restaurant webpage used in JavaScript
