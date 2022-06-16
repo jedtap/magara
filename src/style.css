@@ -68,6 +68,7 @@ p{
   margin: auto;
 } 
 
+
 /* Unique to Home */
 /* 
 html{
@@ -92,7 +93,7 @@ html{
 
 
 /* Unique to Menu */
-html{
+/* html{
   background: url(../src/dish.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -109,4 +110,20 @@ html{
   font-family: 'Rock Salt', cursive;
   font-size: 20px;
   margin: 30px 0 0 0;
+} */
+
+
+/* Unique to Reserve Now */
+html{
+  background: url(../src/lechon.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.contact-h1{
+  font-family: 'Rock Salt', cursive;
+  font-size: 48px;
+  margin: 30px 0 -20px 0;
 }
