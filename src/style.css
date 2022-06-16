@@ -42,6 +42,15 @@ html{
   align-self: center;
 }
 
+.body{
+  text-align: center;
+  color: var(--white-main);
+
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
 .footer{
   padding: 15px 0;
   position: fixed;
@@ -53,24 +62,20 @@ html{
   text-align: center;
 }
 
+p{
+  width: 70%;
+  font-size: 20px;
+  margin: auto;
+} 
 
 /* Unique to Home */
-
+/* 
 html{
   background: url(../src/serving.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-.home-body{
-  text-align: center;
-  color: var(--white-main);
-
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
 }
 
 .home-h1{
@@ -83,9 +88,25 @@ html{
   font-size: 20px;
   margin: 0 0 30px 0;
 }
+*/
 
-.home-p{
-  width: 70%;
-  font-size: 18px;
-  margin: auto;
+
+/* Unique to Menu */
+html{
+  background: url(../src/dish.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.menu-h1{
+  font-family: 'Rock Salt', cursive;
+  font-size: 48px;
+}
+
+.menu-h2{
+  font-family: 'Rock Salt', cursive;
+  font-size: 20px;
+  margin: 30px 0 0 0;
 }
