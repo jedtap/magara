@@ -68,6 +68,10 @@ p{
   margin: auto;
 } 
 
+a{
+  color: var(--white-main);
+}
+
 
 /* Unique to Home */
 /* 
@@ -114,7 +118,7 @@ html{
 
 
 /* Unique to Reserve Now */
-html{
+/* html{
   background: url(../src/lechon.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -123,6 +127,22 @@ html{
 }
 
 .contact-h1{
+  font-family: 'Rock Salt', cursive;
+  font-size: 48px;
+  margin: 30px 0 -20px 0;
+} */
+
+
+/* Unique to Special thanks */
+html{
+  background: url(../src/bread.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.thanks-h1{
   font-family: 'Rock Salt', cursive;
   font-size: 48px;
   margin: 30px 0 -20px 0;
