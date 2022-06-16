@@ -1,20 +1,18 @@
+@font-face {
+  font-family: 'Rock Salt';
+  src: url('rocksalt.ttf');
+}
+
 :root {
   --black-main: #262626;
   --black-faint:#26262686;
   --white-main: #f8f8f8ee;
   --white-faint: #f8f8f892;
-  --shadow: rgba(0,0,0,0.5);
 }
 
 html{
   height: 100%;
   padding: 0 10%;
-
-  background: url(../src/serving.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 .container{
@@ -22,9 +20,7 @@ html{
   flex-direction: column;
 }
 
-
-/* Navbar */
-.header{
+.navbar{
   color: var(--white-main);
   padding: 10px 0;
 
@@ -46,9 +42,6 @@ html{
   align-self: center;
 }
 
-
-/* Footer */
-
 .footer{
   padding: 15px 0;
   position: fixed;
@@ -60,9 +53,18 @@ html{
   text-align: center;
 }
 
-/* Home Content */
 
-.body-home{
+/* Unique to Home */
+
+html{
+  background: url(../src/serving.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.home-body{
   text-align: center;
   color: var(--white-main);
 
@@ -71,17 +73,18 @@ html{
   justify-items: center;
 }
 
-h1{
+.home-h1{
+  font-family: 'Rock Salt', cursive;
   font-size: 48px;
-  margin: 30px 0 0 0;
+  margin: 30px 0 -20px 0;
 }
 
-h2{
+.home-h2{
   font-size: 20px;
   margin: 0 0 30px 0;
 }
 
-p{
+.home-p{
   width: 70%;
   font-size: 18px;
   margin: auto;
