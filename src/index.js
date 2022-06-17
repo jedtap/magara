@@ -3,6 +3,8 @@ import home from './home';
 import menu from './menu';
 import reserve from './reserve';
 import thanks from './thanks';
+import serving from './serving.jpg';
+
 
 function clearPage(){
   var child = body.lastElementChild; 
@@ -15,7 +17,7 @@ function clearPage(){
 function generatePage(page){
   switch(page){
     case "home":
-      home(h1, h2, p, body, html);
+      home(h1, h2, p, body, html, serving);
     break;
 
     case "menu":
