@@ -8,11 +8,7 @@
   --black-faint:#26262686;
   --white-main: #f8f8f8ee;
   --white-faint: #f8f8f892;
-}
-
-html{
-  height: 100%;
-  padding: 0 10%;
+  --white-subtle: #f8f8f833;
 }
 
 .container{
@@ -31,9 +27,13 @@ html{
 .button{
   width: 100px;
   text-align: center;
-  border: 2px solid var(--white-faint);
   padding: 5px 10px;
   border-radius: 10px;
+}
+
+:hover.button{
+  background: var(--white-subtle);
+  cursor: pointer;
 }
 
 .divider{
@@ -72,17 +72,7 @@ a{
   color: var(--white-main);
 }
 
-
 /* Unique to Home */
-/* 
-html{
-  background: url(../src/serving.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 .home-h1{
   font-family: 'Rock Salt', cursive;
   font-size: 48px;
@@ -93,18 +83,8 @@ html{
   font-size: 20px;
   margin: 0 0 30px 0;
 }
-*/
-
 
 /* Unique to Menu */
-/* html{
-  background: url(../src/dish.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 .menu-h1{
   font-family: 'Rock Salt', cursive;
   font-size: 48px;
@@ -114,34 +94,16 @@ html{
   font-family: 'Rock Salt', cursive;
   font-size: 20px;
   margin: 30px 0 0 0;
-} */
-
+} 
 
 /* Unique to Reserve Now */
-/* html{
-  background: url(../src/lechon.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 .contact-h1{
   font-family: 'Rock Salt', cursive;
   font-size: 48px;
   margin: 30px 0 -20px 0;
-} */
-
+} 
 
 /* Unique to Special thanks */
-html{
-  background: url(../src/bread.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 .thanks-h1{
   font-family: 'Rock Salt', cursive;
   font-size: 48px;
