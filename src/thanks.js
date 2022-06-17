@@ -1,4 +1,4 @@
-export default function thanks(h1, p, br, a, span, body, html) {
+export default function thanks(h1, p, br, a, span, body, html, photo) {
   h1 = document.createElement("h1");
   h1.appendChild(document.createTextNode("Special Thanks"));
   h1.setAttribute("class","thanks-h1");
@@ -55,5 +55,5 @@ export default function thanks(h1, p, br, a, span, body, html) {
   a.setAttribute("target","_blank");
   p.appendChild(a);
 
-  html.setAttribute("style","height: 100%;padding: 0 10%;background: url(../src/bread.jpg) no-repeat center center fixed;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;");
+  html.setAttribute("style",`height: 100%;padding: 0 10%;background: url(${photo}) no-repeat center center fixed;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;`);
 }

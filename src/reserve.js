@@ -1,4 +1,4 @@
-export default function reserve(h1, p, br, body, html) {
+export default function reserve(h1, p, br, body, html, photo) {
   h1 = document.createElement("h1");
   h1.appendChild(document.createTextNode("Reserve Now"));
   h1.setAttribute("class","contact-h1");
@@ -26,5 +26,5 @@ export default function reserve(h1, p, br, body, html) {
   p.appendChild(document.createTextNode("Email reservation: bookings@magara.com"));
   body.appendChild(p);
 
-  html.setAttribute("style","height: 100%;padding: 0 10%;background: url(../src/lechon.jpg) no-repeat center center fixed;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;");
+  html.setAttribute("style",`height: 100%;padding: 0 10%;background: url(${photo}) no-repeat center center fixed;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;`);
 }

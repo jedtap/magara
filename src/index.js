@@ -4,7 +4,9 @@ import menu from './menu';
 import reserve from './reserve';
 import thanks from './thanks';
 import serving from './serving.jpg';
-
+import dish from './dish.jpg';
+import lechon from './lechon.jpg';
+import bread from './bread.jpg';
 
 function clearPage(){
   var child = body.lastElementChild; 
@@ -21,15 +23,15 @@ function generatePage(page){
     break;
 
     case "menu":
-      menu(h1, h2, p, body, html);
+      menu(h1, h2, p, body, html, dish);
     break;
 
     case "reserve":
-      reserve(h1, p, br, body, html);
+      reserve(h1, p, br, body, html, lechon);
     break;
 
     case "thanks":
-      thanks(h1, p, br, a, span, body, html);
+      thanks(h1, p, br, a, span, body, html, bread);
     break;
   }
 }
